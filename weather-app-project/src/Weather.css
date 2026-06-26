@@ -1,0 +1,54 @@
+.Weather-app {
+  color: black;
+  margin-bottom: 0;
+}
+.Weather {
+  margin: 5px;
+  font-weight: 300;
+  font-size: 20px;
+}
+.city {
+  margin: 0;
+}
+.description {
+  margin: 0;
+}
+.Weather ul {
+  line-height: 0;
+}
+
+.temperature {
+  margin-left: -20px;
+}
+.unit {
+  margin-bottom: 10px;
+}
+
+.title {
+  color: rgb(128, 124, 124);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  text-align: center;
+}
+
+.weather-icon {
+  width: 200px;
+  height: auto;
+}
+.city-weather-border {
+  border: 1px solid grey;
+  padding: 16px;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+li {
+  font-size: 20px;
+
+  list-style: none;
+}
+img {
+  padding-right: 0px;
+}

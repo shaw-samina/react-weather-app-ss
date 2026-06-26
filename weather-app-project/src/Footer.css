@@ -1,0 +1,8 @@
+.footer {
+  font-size: 11px; /* Decrease your font size safely here */
+  position: absolute;
+  margin-top: 5px;
+  left: 50%;
+  transform: translateX(-50%); /* Perfectly centers it horizontally */
+  text-align: center;
+}
