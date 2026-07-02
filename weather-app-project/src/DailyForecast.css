@@ -1,0 +1,7 @@
+.DailyForecast {
+  text-align: center;
+  line-height: 0%;
+}
+.DailyForecast img {
+  max-width: 60px;
+}

@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import "./Weather.css";
 import Form from "./Form";
 import WeatherInfo from "./WeatherInfo";
+import DailyForecast from "./DailyForecast";
 import axios from "axios";
-import WeatherUnit from "./WeatherUnit";
 
 export default function Weather(props) {
-  const [city, setCity] = useState("Tokyo");
+  const [city, setCity] = useState("Chicago");
   const [weatherData, setWeatherData] = useState({ ready: false });
 
   function handleResponse(response) {
@@ -34,6 +34,7 @@ export default function Weather(props) {
         <div className="city-weather-border rounded">
           <Form onSearch={searchCity} city={city} />
           <WeatherInfo data={weatherData} />
+          <DailyForecast city={weatherData.city} />
         </div>
       </div>
     );

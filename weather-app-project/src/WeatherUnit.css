@@ -1,0 +1,10 @@
+.d-inline-flex {
+  white-space: nowrap;
+  font-size: 17px;
+}
+.temperature {
+  margin-left: 10px;
+}
+.units a {
+  text-decoration: none;
+}
